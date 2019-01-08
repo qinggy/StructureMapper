@@ -20,7 +20,7 @@ namespace Angus.ISoft.Boilerplate.Structuremapper.Webapi
         }
     }
 
-    public static class BootStrapStructureMapper
+    public static class ApiMapper
     {
         public static void Register<T>() where T : Registry, new()
         {
