@@ -19,7 +19,7 @@ namespace Angus.ISoft.Boilerplate.Structuremapper.MVC
         }
     }
 
-    public static class BootStrapStructureMapper
+    public static class ServiceMapper
     {
         public static void Register<T>() where T : Registry, new()
         {
